@@ -1,4 +1,4 @@
-# DSCPM
+# The Dual Syringe Continuous Pumping Mechanism (DSCPM)
 ## This repository contains software and hardware schematics that accompany the article titled *A Continuous, Low Flow, and Multiplexing Pumping System for Microfluidics Applications*
 https://www.biorxiv.org/content/10.1101/2024.08.16.608339v1
 

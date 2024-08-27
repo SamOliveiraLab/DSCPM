@@ -1,4 +1,4 @@
-# How to take Flow Rate versus Time Measurments
+# Flow Rate versus Time Measurments
 
 An image processing technique was used to measure flow rate versus time in the study: *A Continuous, Low Flow, Multiplexing Pumping System for Microfludidics Applications*
 

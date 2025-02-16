@@ -33,9 +33,5 @@ This repository contains all software, hardware schematics, and supplementary ma
 
 - **Appendix C**  
   - Data files and analysis scripts.
-  - Jupyter notebooks (`.ipynb`) and MATLAB scripts (`.m`) for processing experimental data presented in the paper.
-
----
-
-This repository is designed for efficient collaboration, transparent file tracking, and organized documentation to support the publication process.
+  - Jupyter notebooks (`.ipynb`) and MATLAB scripts (`.m`) are used to process experimental data presented in the paper.
 

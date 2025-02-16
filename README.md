@@ -1,10 +1,41 @@
 # The Dual Syringe Continuous Pumping Mechanism (DSCPM)
-## This repository contains software and hardware schematics that accompany the article titled *A Continuous, Low Flow, and Multiplexing Pumping System for Microfluidics Applications*
-https://www.biorxiv.org/content/10.1101/2024.08.16.608339v1
 
-This repository contains/will contain:
-- The Arduino code for the DSCPM 2-3/1-2
-- The Arduino code for the DSCPM 2-2
-- The Arduino code for the Fluidic Multiplexers
-- The edge detecting python scripts which generate volume infused vs. time and flow rate vs. time plots from horizontal (left to right), pre-cropped videos of dyed fluid infusing into micro-bore tubing (Generative AI was used in the development of this code. The authors thoroughly confirmed the validity of the generated quantitative data with with respect to the raw data (videos), and take responsibility for what is presented.)
-- STL files for 3D printable DSCPM parts
+## Repository for the Article: *A Continuous, Low Flow, and Multiplexing Pumping System for Microfluidics Applications*
+
+This repository contains all software, hardware schematics, and supplementary materials associated with the publication:
+
+[Preprint on bioRxiv](https://www.biorxiv.org/content/10.1101/2024.08.16.608339v1)
+
+### **Contents of This Repository**
+- **Arduino Code:**
+  - DSCPM 2-3/1-2
+  - DSCPM 2-2
+  - Fluidic Multiplexers
+- **Python Scripts:**
+  - Edge-detection scripts for generating volume-infused vs. time and flow rate vs. time plots from pre-cropped horizontal (left-to-right) videos of dyed fluid infusing into micro-bore tubing.  
+  - *Note:* Generative AI was utilized in the development of these scripts. The authors have rigorously validated the generated quantitative data against raw video data and assume full responsibility for its accuracy.
+- **3D Printable Components:**
+  - STL files for DSCPM parts.
+
+---
+
+## **Repository Structure**
+
+### **Main Directory**
+- **Appendix A**  
+  - Hardware and microfluidic chamber design files.
+  - `.stl` files for 3D-printed components (e.g., syringe plunger, valve holder).
+  - `.gds` files for microfluidic monolayer geometries (Layer 1 & Layer 2).
+
+- **Appendix B**  
+  - Integrated Arduino `.ino` files for DSCPM pumps and fluidic multiplexers.
+  - Graphical User Interface (GUI) that interfaces with the Arduino via serial communication to control the pump system.
+
+- **Appendix C**  
+  - Data files and analysis scripts.
+  - Jupyter notebooks (`.ipynb`) and MATLAB scripts (`.m`) for processing experimental data presented in the paper.
+
+---
+
+This repository is designed for efficient collaboration, transparent file tracking, and organized documentation to support the publication process.
+
